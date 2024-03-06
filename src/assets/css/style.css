@@ -102,7 +102,7 @@ p {
     max-width: 150px;
 }
 
-.content_search-engine-optimization {
+.content_item {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,7 +111,7 @@ p {
     color: #ffffff;
 }
 
-.content_search-engine-optimization img {
+.content_item img {
     max-height: 200px;
 }
 
