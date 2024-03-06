@@ -48,22 +48,31 @@
             </p>
         </div>
     </div>
+    <!--
+        There were three different classes: lead-benefit, brand-benefit and cost-benefit. 
+        In the CSS file, these classes had the same values ​​and attributes, but repeated three times for each class. 
+        Refactoring to have a better understanding and clear code. I've created a class called benefit-item for all the items inside the benefit container class
+        and in the CSS file I just called this class benefit-item because they share the same attributes.
+
+        I did the same for h3 and img, on CSS there is just one call for h3 and one call for img where the code was repeated.
+        For example, benefit-item h3 and benefit-item img. Before were three calls for each class and all of them with the same attributes and values.
+    -->
     <div class="benefits">
-        <div class="benefit-lead">
+        <div class="benefit-item">
             <h3>Lead Generation</h3>
             <img src="./src/assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefit-item">
             <h3>Brand Awareness</h3>
             <img src="./src/assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit-item">
             <h3>Cost Management</h3>
             <img src="./src/assets/images/cost-management.png" />
             <p>
