@@ -1,16 +1,26 @@
-In this project called starter code, I could refactor the code where I could add navigation tags, main tags, and section tags.
-Where the code was repeated I could create just one class sharing a variety of elements and call the CSS code just once, simplifying the code and making it clear and easy to read.
-The idea was to improve the code while maintaining the main idea, improving it without changing the UI.
+WHEN I view the source code
+I could see that basic was done but the code was so poor of resources, that exist in HTML and CSS.
 
-The first class after the body tag was a header class and that was replaced by the main-header class.
-On the nav class main-nav, it was created because a nav tag was missing on the code, there are buttons to link to the main text.
+THEN I find semantic HTML elements.
+There were missing a few elements as the main, nav, section with that the meaning of was not clearly described.
 
-I've created the main-content class to replace the class content, given a better understanding of reading and to be located on the code.
+WHEN I view the structure of the HTML elements
+The basic structure was done correctly on my view, <HTML>, <head>, <title> and <body>.
 
-Inside to main-content class I refactored the IDs to work properly with each link associated with it.
-Inside to main-content class I replaced the repeated classes with just one class called content-item and with it I could shrink the CSS file as well.
-Inside to main-content class I created sections that were missing in this part of the code.
+WHEN I view the image elements
+I saw three classes float-right and float-left(2x), I let them as I found, because it was not duplicated in the HTML or CSS, for my view they were ok.
 
-Section class benefits replaced div class benefits
-on the Section class benefits I replaced the following classes, benefit-lead, benefit-brand, and benefit-cost with the class benefit-item and shrinking the CSS file as well.
+THEN I find accessible alt attributes
+There were no alt attributes, I had to create three for each image.
 
+WHEN I view the heading attributes
+In my point of view, the heading attributes were set correctly, for each heading h1, h2 h3. I didn't feel the necessity to refactor those.
+
+THEN they fall in sequential order
+As section tags were created inside of each section they fall in sequential order.
+
+WHEN I view the title element
+The title didn't have a significant meaning and it was impossible for a significant search to understand what the site was about.
+
+THEN I find a concise, descriptive title
+The title has been replaced by Search Engine Optimization.
