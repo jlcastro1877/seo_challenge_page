@@ -6,7 +6,7 @@ There were missing a few elements as the main, nav, section with that the meanin
 
 WHEN I view the structure of the HTML elements
 I just created the footer tag
-The basic structure was done correctly on my view, <HTML>, <head>, <title> and <body>.
+The basic structure was done correctly on my view, HTML, head, title and body.
 
 WHEN I view the image elements
 I saw three classes float-right and float-left(2x), I let them as I found, because it was not duplicated in the HTML or CSS, for my view they were ok.
