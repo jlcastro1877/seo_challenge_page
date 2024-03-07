@@ -7,10 +7,23 @@
     <title>website</title>
 </head>
 <!--
-    created main-tag class
-    created main-nav
-    on css file I could added the "a" tag in (.main-header nav ul a) deleted this single tag on css that was separated 
-    I did delete de p tag on CSS because it was not being used.
+March 2024.
+Jorge Castro
+In this project called starter code, I could refactor the code where I could add navigation tags, main tags, and section tags.
+Where the code was repeated I could create just one class sharing a variety of elements and call the CSS code just once, simplifying the code and making it clear and easy to read.
+The idea was to improve the code while maintaining the main idea, improving it without changing the UI.
+
+The first class after the body tag was a header class and that was replaced by the main-header class.
+On the nav class main-nav, it was created because a nav tag was missing on the code, there are buttons to link to the main text.
+
+I've created the main-content class to replace the class content, given a better understanding of reading and to be located on the code.
+
+Inside to main-content class I refactored the IDs to work properly with each link associated with it.
+Inside to main-content class I replaced the repeated classes with just one class called content-item and with it I could shrink the CSS file as well.
+Inside to main-content class I created sections that were missing in this part of the code.
+
+Section class benefits replaced div class benefits
+On The Section class benefits I replaced the following classes, benefit-lead, benefit-brand, and benefit-cost with the class benefit-item and shrinking the CSS file as well.   
 -->
 <body>
     <header class="main-header">
@@ -29,22 +42,12 @@
             </ul>
         </nav>
     </header>
+    
     <div class="hero"></div>
-    <!--
-        The IDs were not used by the CSS file and classes that were called were repeated by the CSS file when just one class for items
-         and one call in the CSS file would do the same result.
-        I’ve created a class called content_item to replace the classes search-engine-optimization, 
-        online-reputation-management, and social-media-marketing, on the CSS file those classes are called just one time
-        replacing the repeated code on CSS.
-        The IDs were deleted from the code because they were not used by the code. 
-        I did the same for img and h2, where I call content_search-engine-optimization h2 and content_search-engine-optimization img.
-        Also included main tag to show that there is the main content of this document
-        Added section tag to define with section of this document.
-   -->
-   <!--Added main-->
-   <main class="main-content">
+    
+    <main class="main-content">
         <section>
-            <div class="content_item">
+            <div id=search-engine-optimization class="content_item">
                 <img src="./src/assets/images/search-engine-optimization.jpg" class="float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
@@ -53,7 +56,7 @@
             </div>
         </section>
         <section>
-            <div class="content_item">
+            <div id=online-reputation-management class="content_item">
                 <img src="./src/assets/images/online-reputation-management.jpg" class="float-right" />
                 <h2>Online Reputation Management</h2>
                 <p>
@@ -62,7 +65,7 @@
             </div>
        </section>
        <section>
-        <div class="content_item">
+        <div id=social-media-marketing class="content_item">
             <img src="./src/assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -71,18 +74,8 @@
         </div>
         </section>
   </main> 
-    <!--
-        There were three different classes: lead-benefit, brand-benefit and cost-benefit. 
-        In the CSS file, these classes had the same values ​​and attributes, but repeated three times for each class. 
-        Refactoring to have a better understanding and clear code. I've created a class called benefit-item for all the items inside the benefit container class
-        and in the CSS file I just called this class benefit-item because they share the same attributes.
-
-        I did the same for h3 and img, on CSS there is just one call for h3 and one call for img where the code was repeated.
-        For example, benefit-item h3 and benefit-item img. Before were three calls for each class and all of them with the same attributes and values.
-        Also included section replacing the div class benefits.
-    -->
-    <!--Added section-->
-    <section class="benefits">
+    
+  <section class="benefits">
         <div class="benefit-item">
             <h3>Lead Generation</h3>
             <img src="./src/assets/images/lead-generation.png" />
@@ -112,5 +105,4 @@
         </p>
     </div>
 </body>
-
 </html>
