@@ -5,6 +5,7 @@ THEN I find semantic HTML elements.
 There were missing a few elements as the main, nav, section with that the meaning of was not clearly described.
 
 WHEN I view the structure of the HTML elements
+I just created the footer tag
 The basic structure was done correctly on my view, <HTML>, <head>, <title> and <body>.
 
 WHEN I view the image elements
@@ -24,5 +25,6 @@ The title didn't have a significant meaning and it was impossible for a signific
 
 THEN I find a concise, descriptive title
 The title has been replaced by Search Engine Optimization.
+
 
 
