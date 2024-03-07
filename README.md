@@ -5,13 +5,6 @@ THEN I find semantic HTML elements.
 There were missing a few elements as the main, nav, section with that the meaning of was not clearly described.
 
 WHEN I view the structure of the HTML elements
-The basic structure was done correctly on my view, <HTML>, <head>, <title> and <body>.
-
-WHEN I view the image elements
-I saw three classes float-right and float-left(2x), I let them as I found, because it was not duplicated in the HTML or CSS, for my view they were ok.
-
-THEN I find accessible alt attributes
-There were no alt attributes, I had to create three for each image.
 I just created the footer tag
 The basic structure was done correctly on my view, <HTML>, <head>, <title> and <body>.
 
@@ -19,7 +12,7 @@ WHEN I view the image elements
 I saw three classes float-right and float-left(2x), I let them as I found, because it was not duplicated in the HTML or CSS, for my view they were ok.
 
 THEN I find accessible alt attributes
-There were no alt attributes, I had to create three for each image.
+There were no alt attributes, I had to create alt attributes for each image link.
 
 WHEN I view the heading attributes
 In my point of view, the heading attributes were set correctly, for each heading h1, h2 h3. I didn't feel the necessity to refactor those.
